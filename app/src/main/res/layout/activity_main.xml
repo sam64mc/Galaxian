@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sam.atelierfirebase.MainActivity">
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:hint="@string/pr_nom"
+        />
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:hint="@string/mot_de_passe"
+        tools:layout_editor_absoluteY="61dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:hint="@string/score"
+        tools:layout_editor_absoluteY="61dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/envoyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envoyer" />
+
+    <Button
+        android:id="@+id/theBest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/the_best" />
+
+</LinearLayout>
